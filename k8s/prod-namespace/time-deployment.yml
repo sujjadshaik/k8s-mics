@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: time-service
-        image: sujjad/time-service-image:v1
+        image: sujjad/time-service:v1
         ports:
         - containerPort: 5001
